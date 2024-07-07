@@ -1,24 +1,24 @@
 import {
-     CloudDrizzle,
-     CloudRain,
-     CloudSun,
-     Cloudy,
-     Command,
-     UsersRound, 
-     Eye, 
-     Gauge, 
-     Github, 
-     Navigation, 
-     Search, 
-     Snowflake, 
-     Sunset, 
-     Thermometer, 
-     ThermometerSun, 
-     Wind, 
-     CalendarDays, 
-     SunDim, 
-     Droplets} 
-     from "lucide-react";
+    CloudDrizzle,
+    CloudRain,
+    CloudSun,
+    Cloudy,
+    Command,
+    UsersRound, 
+    Eye, 
+    Gauge, 
+    Github, 
+    Navigation, 
+    Search, 
+    Snowflake, 
+    Sunset, 
+    Thermometer, 
+    ThermometerSun, 
+    Wind, 
+    CalendarDays, 
+    SunDim, 
+    Droplets} 
+    from "lucide-react";
 
 export const commandIcon = <Command size={14}/>;
 export const github = <Github size={19}/>;
@@ -39,9 +39,3 @@ export const eye = <Eye size={14}/>;
 export const people = <UsersRound size={14}/>;
 export const calender = <CalendarDays size={14}/>;
 export const sun = <SunDim size={14}/>;
-
-
-
-
-
-
