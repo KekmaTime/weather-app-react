@@ -7,9 +7,12 @@ import { AppBar, Toolbar, Box, Paper } from '@mui/material';
 import { github } from '../utils/Icons'
 import ThemeDropDown from './ThemeDropDown/ThemeDropDown';
 import SearchDialog from './SearchDialog/SearchDialog';
+import { useGlobalContext } from '../context/globalContext';
 
 function Navbar() {
     const router = useRouter();
+    const { state } = useGlobalContext();
+    console.log(state);
     return (
         <AppBar position="static" color='transparent' elevation={0}>
             <Toolbar className='w-full py-4 flex items-center justify-between'>
