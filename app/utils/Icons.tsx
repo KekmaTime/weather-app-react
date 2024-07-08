@@ -22,7 +22,7 @@ import {
 
 export const commandIcon = <Command size={14}/>;
 export const github = <Github size={19}/>;
-export const searchIcon = <Search size={14}/>;
+export const searchIcon = <Search size={19}/>;
 export const drizzleIcon = <CloudDrizzle size={14}/>;
 export const rain = <CloudRain size={14}/>;
 export const snow = <Snowflake size={14}/>;
