@@ -32,8 +32,8 @@ function AirPollution() {
   return (
     <Paper
       sx={{
-        padding: 2,
-        height: 192,
+        padding: 3,
+        height: 178.5,
         borderRadius: 2,
         display: 'flex',
         flexDirection: 'column',

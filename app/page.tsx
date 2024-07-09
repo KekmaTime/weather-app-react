@@ -4,6 +4,7 @@ import Temperature from "./Components/Temperature/Temperature";
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import AirPollution from "./Components/AirPollution/AirPollution";
+import Sunset from "./Components/Sunset/Sunset";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
           <Grid container spacing={4} sx={{ height: '100%' }}>
             <Grid item xs={12} sm={6} lg={4} xl={3} className="sm:w-[581px] md:w-[1055px]">
               <AirPollution />
+              <Box sx={{ mt: 2 }}>
+                <Sunset />
+              </Box>
             </Grid>
           </Grid>
         </Box>
